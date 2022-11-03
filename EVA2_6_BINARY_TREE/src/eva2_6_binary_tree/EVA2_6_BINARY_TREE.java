@@ -24,6 +24,15 @@ public class EVA2_6_BINARY_TREE {
         binTree.add(16);
         
         // Imprimir el árbol In Order
+        System.out.println("\nÁrbol binario In Order");
         binTree.inOrder();
+        
+        // Imprimir el árbol en Pre Order
+        System.out.println("\nÁrbol binario Pre Order");
+        binTree.preOrder();
+        
+        // Imprimir el árbol en Post Order
+        System.out.println("\nÁrbol binario Post Order");
+        binTree.postOrder();
     }    
 }
